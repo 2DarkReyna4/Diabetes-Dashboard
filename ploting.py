@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 from streamlit import title
 
-data=pd.read_csv("../diabetes.csv")
+data=pd.read_csv("diabetes.csv")
 #print (data)
 
 st.set_page_config(page_title="diabetes dashboard",layout="wide")
